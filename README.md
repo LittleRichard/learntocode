@@ -1,3 +1,5 @@
+# Learn to Code!
+
 This repository is a collection of scripts that are used to teach programming.
 
 ## Set up your development environment
