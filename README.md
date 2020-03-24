@@ -23,6 +23,6 @@ about any modern software company to manage versions of code.  It should already
 be installed on your computer, but just in case:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-We'll cover some fundamentals of git, including getting set up to access this
-code repository, in the first class.
-
+In our case, we'll use it to access scripts for lessons, as well as homework and 
+solutions.  We'll cover some fundamentals of git, including getting set up to 
+access this code repository, in the first class.
