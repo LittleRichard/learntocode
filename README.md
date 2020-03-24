@@ -1,6 +1,9 @@
 # Learn to Code!
 
-This repository is a collection of scripts that are used to teach programming.
+This repository is a collection of scripts that are used to teach programming.  The
+concepts should be broadly applicable, but we'll be learning Python since it's 
+approachable, has lots of libraries you can import to do complicated things for you 
+(more on this later), and is very well supported by the open source community.
 
 ## Set up your development environment
 ### Operating system
