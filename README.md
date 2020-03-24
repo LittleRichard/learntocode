@@ -31,9 +31,9 @@ access this code repository, in the first class.
 
 ### Test if it worked
 Open the program called 'Terminal' in Mac OS or Ubuntu-in-VM-on-Windows, type
-`python3 --version`, and hit enter.  Congratulations, you've just executed your
-first linux command! You invoked the `python` executable program with the `--version`
-option, which makes it print out the version and then exit.
+`python3 --version`, and hit enter.  You have invoked the `python3` 
+executable program with the `--version` option, which makes it print out 
+the version and then exit.
 
 You should see something like this, and if it's `3.6.<some integer>`
 or `3.7.<some integer>` then you're all set.  If not, we may need to do a little more.
