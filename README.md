@@ -8,10 +8,17 @@ approachable, has lots of libraries you can import to do complicated things for 
 ## Set up your development environment
 ### Operating system
 It's easiest to develop on a linux operating system, which isn't as scary as you might think!  
-If you have a mac, you're all set because apple OS is actually based on linux.  If you 
-have windows, then the best way to get linux running is to use a virtual machine.  You can 
-follow this guide to set up with an OS called Ubuntu:
-https://itsfoss.com/install-linux-in-virtualbox/
+If you have a mac, you're all set because apple OS is actually based on linux.  
+If you have windows, then the best way to get linux running is to use a virtual machine player,
+this one works well:
+https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+
+Then download the Ubuntu operating system (you'll typically want the LTS version), 
+you'll need the ISO to install Ubuntu into a new virtual machine:
+- https://ubuntu.com/download/desktop
+
+This guide to glue it all together looks close enough:
+- https://theholmesoffice.com/installing-ubuntu-in-vmware-player-on-windows/
 
 ### Code editor
 There are a range of tools that you can use to edit code, which can be very simple 
@@ -24,7 +31,7 @@ into colors that make it easier to read.
 
 ### Source Control
 This website uses an open-source software tool called 'git', which is used by just
-about any modern software company to manage versions of code.  It should already
+about any modern software company to manage versions of code.  It might already
 be installed on a linux OS (mac or Ubuntu, definitely not Windows), but just in case:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
