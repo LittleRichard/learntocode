@@ -24,7 +24,7 @@ elif my_rand_suit == 3:
 else:
 	suit_name = 'Hearts'
 
-print('Your card is the %s of %s' % (card_name, suit_name))
+print(f'Your card is the {card_name} of {suit_name}')
 
 
 # Just to make the point, I could have also written
