@@ -1,51 +1,51 @@
 
 print('This string is boring, it can only say one thing')
 
+# this is an f-string, though we're not using its special properties yet.
+print(f'notice how in the code the quote defining this string is preceded by "f"?')
+
 # dynamic insertion of values into strings is called 'string interpolation'
-
 number_of_cows = 25
-print('There are %d cows on my farm' % number_of_cows) # %d is for 'decimal'
-# think of interpolation as having 2 parts:
-## template string (has %s/%f/%d in it)
-## interpolated values (the stuff after the %)
+print(f'There are {number_of_cows} cows on my farm')
+# when interpolating you'll have the following:
+# # base string: the parts that don't change
+# # interpolated value(s): the variables to insert into the base string
+# # formatting code: special syntax (like the '{' and '}' above, more in a few lines)
 
-# this is a 'floating point' number, lot of complexity here but just know that it's different than an integer
-cost_of_JBC = 1.39
-print('A Junior Bacon Cheeseburger costs %f' % cost_of_JBC) # %f is for 'float'
-# %f prints a bunch of decimal places by default, but
-# you can specify a little bit more detail of how these are printed
-print('A Junior Bacon Cheeseburger costs %.2f' % cost_of_JBC) # use 2 decimal points
-
-# can also do this with strings using %s
-my_base_string = 'My name is %s'
-my_name = 'Anson'
-# remember that variables are just placeholders for the data they hold
-print(my_base_string % my_name)
-# equivalent to: 'My name is %s' % 'Anson'
-# this uses only variables! can you start to see the power this has to process data?
-
-# Use multiple values
-my_interpolated_string = '%s %d %f' % ('abc', 123, 456.789)
+# can also do this with strings:
+my_name = 'Abraham Lincoln'
+my_interpolated_string = f'My name is {my_name}'
 print(my_interpolated_string)
 
-# when in doubt, go with %s because python has a default 'string' way of 
-# printing anything
-print('1 + 1 is %s' % 2.0)
+# this is a 'floating point' number, lots of bits & bytes
+# to how non-integers work but a 'float' is just what
+# the computer calls a number with decimal places.
+cost_of_JBC = 1.99  # back in my day it was on the dollar menu
+print(f'A Junior Bacon Cheeseburger costs {cost_of_JBC}')
+# prints a bunch of decimal places by default, but
+# you can specify a little bit more detail of how these are printed
+# if you use a different syntax, NOT an f-string. it's a bit more complicated
+# though so we'll skip it for now
 
-# be careful though, it's easy to screw up interpolation
-my_interpolated_string = '%s %d %s' % ('abc', 123)
-# Traceback (most recent call last):
-#   File "print_dynamic.py", line 30, in <module>
-#     my_interpolated_string = '%s %d %s' % ('abc', 123)
-# TypeError: not enough arguments for format string
+# Use multiple values
+menu_item = 'Chocolate Frosty'
+multiple_values = f'{my_name} needs {number_of_cows} {menu_item}s for {cost_of_JBC}, pronto!'
+print(multiple_values)
+
+# NOTICE HOW:
+# the previous string was almost entirely made of variables. Now if
+# we change the variables, we can use THE SAME CODE to print anything
+# of that format. This is where we start to become powerful
 
 # confirm you can do this by:
-## create a variable holding the number of toes you have
-num_toes = 10
-## print a statement of how many toes you have
-print('i have %d toes' % num_toes)
-print('i have %s toes' % num_toes) # %s handles most things well
-## create a variable holding a template string (one that contains %s, %d, or %f as necessary)
-template_string = 'my favorite foods are: %s, %s, and %s'
-## print a statement of your three favorite foods, in order
-print(template_string % ('macaroni and cheese', 'PANCAKES', 'pizza'))
+# # create a variable holding the number of toes you have
+
+
+# # print a statement of how many toes you have
+
+
+# # declare 3 variables for your favorite foods
+
+
+# # print a statement of your three favorite foods, in order
+
