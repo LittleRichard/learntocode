@@ -31,7 +31,7 @@ into colors that make it easier to read.
 
 ### Source Control
 This website uses an open-source software tool called 'git', which is used by just
-about any modern software company to manage versions of code.  It should already
+about any modern software company to manage versions of code.  It might already
 be installed on a linux OS (mac or Ubuntu, definitely not Windows), but just in case:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
