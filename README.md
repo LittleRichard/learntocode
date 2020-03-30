@@ -8,7 +8,9 @@ approachable, has lots of libraries you can import to do complicated things for 
 ## Set up your development environment
 ### Operating system
 It's easiest to develop on a linux operating system, which isn't as scary as you might think!  
-If you have a mac, you're all set because apple OS is actually based on linux.  
+
+If you have a mac, you're all set because apple OS is actually based on linux and you can skip this step.  
+
 If you have windows, then the best way to get linux running is to use a virtual machine player,
 this one works well:
 https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
@@ -23,7 +25,12 @@ This guide to glue it all together looks close enough:
 ### Code editor
 There are a range of tools that you can use to edit code, which can be very simple 
 (notepad) or very complicated (PyCharm).  We're going to split the difference 
-and use Sublime:
+and use Sublime; be sure to install it in the same OS that you'll be developing in!
+
+The installation steps for Ubuntu involve running some commands in the Terminal,
+so you'll need to figure out how to open the Terminal (hitting the windows button
+on your keyboard and typing 'Terminal' should work) before you can copy-paste
+the commands over.
 https://www.sublimetext.com/3
 
 Sublime is nice because it will do 'syntax highlighting', which turns parts of your code 
