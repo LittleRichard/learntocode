@@ -3,8 +3,8 @@ First we're going to 'clone' the remote repository to a local copy on your compu
 - Clone the repo, which is public so you don't need to authenticate: 
 `git clone https://github.com/LittleRichard/learntocode.git`
 
-For this edition of the class we're going to use a specific branch in our git repository, so
-you should `checkout` that branch:
+For this edition of the class we're going to use a specific branch in our git repository, 
+named `learntocode_lockdown`, so you should `checkout` that branch:
 `git checkout learntocode_lockdown`
 
 And then just to make sure you're up to date (which you should be if you JUST cloned it), we'll do 
