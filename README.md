@@ -9,7 +9,8 @@ approachable, has lots of libraries you can import to do complicated things for 
 ### Operating system
 It's easiest to develop on a linux operating system, which isn't as scary as you might think!  
 
-If you have a mac, you're all set because apple OS is actually based on linux and you can skip this step.  
+If you have a mac, you're all set with the operating system because apple OS is based on linux 
+and you can move to the next step.
 
 If you have windows, then the best way to get linux running is to use a virtual machine player,
 this one works well:
@@ -71,3 +72,10 @@ or `3.7.<some integer>` then you're all set.  If not, we may need to do a little
 $ python3 --version
 Python 3.7.1
 ```
+
+`python3` is almost definitely pre-installed in Ubuntu, and if not then you can run
+this in the Terminal to get it:
+`sudo apt-get install python3`
+
+It's probably installed on a mac if it's new, but if not then:
+https://docs.python-guide.org/starting/install3/osx/
