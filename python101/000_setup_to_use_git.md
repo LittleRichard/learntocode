@@ -1,4 +1,4 @@
-First we're going to 'clone' the remote repository to a local copy on your computer:
+First we're going to 'clone' the remote repository to a local copy on your computer. Open a Terminal:
 - Navigate to the folder you want to put the code in. You can use your home folder: `cd ~`
 - Clone the repo, which is public so you don't need to authenticate: 
 `git clone https://github.com/LittleRichard/learntocode.git`
