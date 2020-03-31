@@ -4,8 +4,8 @@ practice, practice. Watching baseball will teach you how to play, but if
 you've never swung a bat you probably suck at it. Many people
 enjoy understanding and watching things they're bad at, and that's cool
 too. Just match your effort to your expectations.
-- Everyone learns their own way. I'm open to using visuals, examples
-office hours, whatever, but you have to let your teacher know!
+- Everyone learns their own way: visuals, examples,
+office hours, anything is possible, but you have to let your teacher know!
 
 #### 1955 - FORTRAN gave programmers conditional logic (if/else) and math.  
 Still used for weather forecasting today, extremely fast at math.
