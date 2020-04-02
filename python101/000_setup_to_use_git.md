@@ -17,5 +17,12 @@ with `git pull`.  Try that now, there shouldn't be any changes since you effecti
 did a `git pull` when you cloned the repo.
 
 You should also install a graphical interface for git, Git Cola seems reasonable:
-- Ubuntu: `$ sudo apt-get install git-cola`
-- Mac: `$ brew install sphinx-doc`, then `$ brew install git-cola`
+- Ubuntu: 
+```
+sudo apt-get install git-cola
+```
+- Mac: 
+```
+brew install sphinx-doc
+brew install git-cola`
+```
