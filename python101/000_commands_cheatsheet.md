@@ -62,9 +62,9 @@ you are currently in
 - `cd ~` is equivalent to `cd`; `~` is an alias for your home directory so no matter what 
 your PWD is, you can do things like `python3 ~/my_script_in_home_folder.py`
 - <Ctrl-z/x/c/v> don't work! Well actually they do, but they mean something
-to Linux in the terminal (especially <Ctrl-c>, more on that later).
+to Linux in the terminal (especially `<Ctrl-c>`, more on that later).
 If you have a mouse with a scroll button, pressing it is equivalent to 
-<Ctrl-v>, but otherwise you have to right-click and use the menu
+`<Ctrl-v>`, but otherwise you have to right-click and use the menu
 
 
 #### Git
