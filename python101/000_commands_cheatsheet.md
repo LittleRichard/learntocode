@@ -22,7 +22,7 @@ ever see an error that seems strange the FIRST THING YOU SHOULD DO is check to m
 used the right python to run your script `python3 my_python3_script.py`
 
 
-#### Code comment notation
+#### Code blocks and documentation notation
 - a 'code block' is typically denoted with backticks, and 'markdown' files like this
 one (as well as Wikipedia) will show them differently. `you can't see the backticks
 surrounding this statement in a web browser because GitHub applies the code block style, 
