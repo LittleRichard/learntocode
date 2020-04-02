@@ -7,10 +7,10 @@ For this edition of the class we're going to use a specific branch in our git re
 named `learntocode_lockdown`, so you should `checkout` that branch:
 `git checkout learntocode_lockdown`
 
-And then just to make sure you're up to date (which you should be if you JUST cloned it), we'll do 
-a `pull`; this will update your local repo to know about any changes that occurred in the remote repo,
-and then merge any remote changes to your branch into your local repo.
-`git pull`
+As we proceed through the classes, I'll `git commit` and `git push` more code to the
+remote version of the branch, and you will download it to your local copy of the branch
+with `git pull`.  Try that now, there shouldn't be any changes since you effectively
+did a `git pull` when you cloned the repo.
 
 You should also install a graphical interface for git, Git Cola seems reasonable:
 - Ubuntu: `sudo apt-get install git-cola`
