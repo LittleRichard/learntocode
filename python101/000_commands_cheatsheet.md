@@ -19,7 +19,10 @@ For now, you have 3 programs that you should have open when you write code.
 #### python2 vs python3
 - sometimes you'll get lucky and `python my_python3_script.py` will work fine, but if you
 ever see an error that seems strange the FIRST THING YOU SHOULD DO is check to make sure you
-used the right python to run your script `python3 my_python3_script.py`
+used the right python to run your script
+```
+python3 my_python3_script.py
+```
 
 
 #### Code blocks and documentation notation
