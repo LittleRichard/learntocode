@@ -3,7 +3,7 @@
 practice, practice. Watching baseball will teach you how to play, but if 
 you've never swung a bat you probably suck at it. Many people
 enjoy understanding and watching things they're bad at, and that's cool
-too. Just match your effort to your expectations.
+too. Just match your expectations to your effort.
 - Everyone learns their own way: visuals, examples,
 office hours, anything is possible, but you have to let your teacher know!
 
