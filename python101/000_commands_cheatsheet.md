@@ -54,6 +54,11 @@ execute commands and programs. *Get good at using the command line*, it's extrem
 useful and you'll use it a ton.
 - Terminal will (mostly) expect you to enter arguments separated by spaces, so
 do yourself a favor and NEVER USE FILE NAMES WITH SPACES. It's usable, but annoying.
+- If you ever issue a `sudo` command, this means that you are telling the computer
+to execute the command after the word `sudo` as a Super User (AKA an admin). It will
+prompt you for a password, which should be the same one you logged in with. It will
+not 'echo' anything you type back to the screen, for security reasons, but never fear!
+Just type your password and hit enter.
 - `pwd` will print out the 'present working directory', which is the folder
 you are currently in
 - `ls` lists the files and folders in your current location
