@@ -16,13 +16,15 @@ For now, you have 3 programs that you should have open when you write code.
 - Command line interface to execute scripts (and everything else): *Terminal*
 
 
-#### python2 vs python3
-- sometimes you'll get lucky and `python my_python3_script.py` will work fine, but if you
+#### The most common mistakes
+- python2 vs python3: sometimes you'll get lucky and `python my_python3_script.py` will work fine, but if you
 ever see an error that seems strange the FIRST THING YOU SHOULD DO is check to make sure you
 used the right python to run your script
 ```
 python3 my_python3_script.py
 ```
+- If you're wondering why your code isn't working but you're 100% sure you wrote it correctly...
+don't forget to save your script before you run it!!! <Ctrl-s> is the shortcut in sublime.
 
 
 #### Code blocks and documentation notation
@@ -54,6 +56,10 @@ execute commands and programs. *Get good at using the command line*, it's extrem
 useful and you'll use it a ton.
 - Terminal will (mostly) expect you to enter arguments separated by spaces, so
 do yourself a favor and NEVER USE FILE NAMES WITH SPACES. It's usable, but annoying.
+- Tab-completion is your best friend! There's no need to type out the full names of
+scripts, folders, or even programs! Type a few characters and hit tab to let the
+terminal type it out the rest of the way.  Not working?  There are probably multiple
+things with that name and you need to add more characters for your computer to be sure.
 - If you ever issue a `sudo` command, this means that you are telling the computer
 to execute the command after the word `sudo` as a Super User (AKA an admin). It will
 prompt you for a password, which should be the same one you logged in with. It will
