@@ -5,6 +5,12 @@ First we're going to 'clone' the remote repository to a local copy on your compu
 git clone https://github.com/LittleRichard/learntocode.git
 ```
 
+This made a folder called `learntocode` in the folder you were in when you ran the `git clone`;
+your local copy of the git repo lives in there so let's 'change directory' to it:
+```
+cd learntocode
+```
+
 For this edition of the class we're going to use a specific branch in our git repository, 
 named `learntocode_lockdown`, so you should `checkout` that branch:
 ```
