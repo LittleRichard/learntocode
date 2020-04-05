@@ -24,7 +24,7 @@ used the right python to run your script
 python3 my_python3_script.py
 ```
 - If you're wondering why your code isn't working but you're 100% sure you wrote it correctly...
-don't forget to save your script before you run it!!! <Ctrl-s> is the shortcut in sublime.
+don't forget to save your script before you run it!!! `<Ctrl-s>` is the shortcut in sublime.
 
 
 #### Code blocks and documentation notation
