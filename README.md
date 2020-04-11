@@ -60,7 +60,7 @@ You can test if git has been installed with the terminal command `which git`; if
 prints something like the following, you're all set. If it doesn't print anything,
 you need to follow the installation steps.
 ```
-adorsey@ubuntu:~$ which git
+me@ubuntu:~$ which git
 /usr/bin/git
 ```
 
