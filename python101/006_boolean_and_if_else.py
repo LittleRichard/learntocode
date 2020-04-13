@@ -63,10 +63,17 @@ else:
 # you should use the 'pass' python keyword.  
 # python interprets the 'pass' to mean 'do nothing'
 if -25 < 0:
+	# using pass is convenient if your if-elif-elif tree
+	# wants to check for a case but skip it.  you typically
+	# won't need it, but it's handy just in case.
 	pass
 
 print('') # print a blank line
 
+# this is a good opportunity to demostrate that integers and strings
+# are not equivalent, even if they seem to be!!!
+if 123 != '123':
+	print("always remember: 123 != '123'")
 
 # <TRY IT OUT>
 ## grab a random integer between 1 and 5, inclusive
