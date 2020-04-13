@@ -19,6 +19,8 @@ print(random.randint)
 # if instead of using it as a variable, we can 'invoke' it as 
 # a function, sometimes also called a method, 
 # by putting (<arguments to the function>) after it.
+# an invoked function has a return value, which we can
+# store in a variable or use as necessary.
 my_rand_int = random.randint(1, MAX_VALUE) # between the 1st argument and the 2nd, inclusive
 print(f'my random integer: {my_rand_int}')
 
