@@ -4,6 +4,12 @@ import random # import is how you tell python that you want to use a library in 
 # note how the code editor uses a different color for True than print
 print(f'True is {True}, duh')
 
+# IMPORTANT: we're about to start indenting code, which means something
+# to python syntactically.  Set your code editor to use 4 spaces as
+# an indent!!!!!!!!
+# Some languages use {} or other syntax to denote blocks of code, but
+# python uses indentation.
+
 # 'if' is part of python syntax.
 # the indented bit is only executed when the 'condition' following it
 # evaluates to True.  
