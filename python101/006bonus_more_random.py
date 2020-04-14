@@ -39,11 +39,13 @@ print('a string is an ordered collection of characters.')
 # the `len` function might be helpful here, punch it into google.
 
 
-# why does this print funny with the square brackets
-# and commas? this is a data type we haven't seen yet,
-# and is up next! here's some code to adjust it so it
-# prints nicely, by joining all the elements in your
-# sample together with an empty string between each. 
+# why does the output of random.sample() print funny with the square 
+# brackets and commas? `sample` returns a `list`, a data type we 
+# haven't seen yet and will explore in the next class.
+
+# here's some code to make your list prints nicely as a string,
+# by joining all the elements into a string, with an empty string 
+# between each element of the list.
 nice_print = ''.join(your_sample)
 print(nice_print)
 
