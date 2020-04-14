@@ -4,6 +4,14 @@ import random # import is how you tell python that you want to use a library in 
 # note how the code editor uses a different color for True than print
 print(f'True is {True}, duh')
 
+# True is a 'boolean' type, in addition to the
+# 'int' (integer) and 'str' (string) types we know. 
+# We can use python's built-in function 'type' to inspect them
+print(type(1))
+print(type('1'))
+print(type(True))
+
+
 # IMPORTANT: we're about to start indenting code, which means something
 # to python syntactically.  Set your code editor to use 4 spaces as
 # an indent!!!!!!!!
