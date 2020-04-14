@@ -33,6 +33,11 @@ print('a string is an ordered collection of characters.')
 # number of characters from your string in a random order:
 # https://docs.python.org/3.6/library/random.html#random.sample
 
+# can you figure out how to use the `sample` function to 
+# return a shuffled version of the input? `random` has a shuffle function, 
+# but sadly we can't use it with strings (we'll learn why next class!)
+# the `len` function might be helpful here, punch it into google.
+
 
 # why does this print funny with the square brackets
 # and commas? this is a data type we haven't seen yet,
