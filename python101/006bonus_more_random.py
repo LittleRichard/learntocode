@@ -8,8 +8,8 @@ import random
 # is everything that comes standard in python.
 # https://docs.python.org/3.6/library/
 # for reference, i'm very familiar with about 
-# a third of it, have used another third, and
-# can mostly infer what the rest does.
+# a third of it, have used or am aware of another third, and
+# can (mostly) infer what the rest does.
 
 # back to the `random` library. the `choice` function 
 # returns a random element from a "sequence", 
@@ -22,7 +22,6 @@ print('a string is an ordered collection of characters.')
 
 # TODO: define a string that you'll use with
 # all your experiments with random.
-my_str = 'abcdefghijklmnopqrstuvwxyz'
 
 
 # TODO: invoke the `choice` function from the
