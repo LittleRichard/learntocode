@@ -11,6 +11,8 @@ print(type(1))
 print(type('1'))
 print(type(True))
 
+my_rand_int = random.randint(1, 2) # returns a value: 1 or 2
+print(f'my random int is {my_rand_int}')
 
 # IMPORTANT: we're about to start indenting code, which means something
 # to python syntactically.  Set your code editor to use 4 spaces as
@@ -21,6 +23,18 @@ print(type(True))
 # 'if' is part of python syntax.
 # the indented bit is only executed when the 'condition' following it
 # evaluates to True.  
+# essentially: if X, do Y
+if my_rand_int == 1:
+    # the '==' operator returns True if the two elements are equal, 
+    # and returns False otherwise
+    print('is 1')
+
+if my_rand_int != 1:
+    # the '!=' operator returns True if the two elements are NOT equal, 
+    # and returns False otherwise
+    print('was 2')
+
+# False is a python KEYWORD, and should NEVER EVER be used as a variable
 if True:
 	print('turns out True is still true')
 
@@ -30,20 +44,12 @@ if False:
 
 print('') # print a blank line
 
-my_rand_int = random.randint(1, 2) # returns a value: 1 or 2
-print(f'my random int is {my_rand_int}')
-
-# essentially: if X, do Y
-if my_rand_int == 1: # the '==' operator returns True if the two elements are equal, False otherwise
-	print('is 1')
-
-if my_rand_int != 1: # the '!=' operator returns 'True' if the two elements are equal, False otherwise
-	print('was 2')
-
 # simulate a coin flip, which has two obvious outcomes
 if my_rand_int == 1:
 	print('Heads')
-else: # 'else' is a python KEYWORD, and should NEVER EVER be used as a variable
+else: 
+    # 'else' is a python KEYWORD, and should 
+    # NEVER EVER be used as a variable
 	print('Tails')
 
 print('') # print a blank line
@@ -59,12 +65,12 @@ if bigger_rand_int < 80000:
 
 if bigger_rand_int >= (BIG_RAND_INT_MAX / 2): 
     print('Heads')
-elif bigger_rand_int > 0:  
+elif bigger_rand_int > 0:
     # 'elif' is a python KEYWORD, and should NEVER EVER be used as a variable
     print('Tails')
 else:
 	# note that our elif used >, NOT >=
-	print('Landed on the edge, %s was zero!' % bigger_rand_int)
+	print(f'Landed on the edge, {bigger_rand_int} == 0')
 
 # each indented block MUST have at least one statement! If you want to 
 # represent a case in your if-elif-elif... tree
@@ -86,9 +92,7 @@ if 123 != '123':
 # <TRY IT OUT>
 ## grab a random integer between 1 and 5, inclusive
 
-
 ## write an if-tree that will:
 ### print some text if the integer is 1 or 2
 ### print some text if the integer is 3 or 4
 ### print something else if it's 5
-

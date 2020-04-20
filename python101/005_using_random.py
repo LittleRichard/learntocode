@@ -53,4 +53,3 @@ print(f'Two random numbers from 1 to {MAX_VALUE} summed to {my_rand_sum}')
 
 
 # # a bit harder... roll two dice with random sizes!
-
