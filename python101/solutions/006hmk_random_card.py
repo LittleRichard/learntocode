@@ -31,11 +31,11 @@ else:
 # same about if, if, if... vs if-elif-elif-elif...
 if rand_card == 1:
     card_name = 'Ace'
-elif rand_card == 12:
+elif rand_card == 13:
     card_name = 'King'
-elif rand_card == 11:
+elif rand_card == 12:
     card_name = 'Queen'
-elif rand_card == 10:
+elif rand_card == 11:
     card_name = 'Jack'
 else:
     # will also print fine if i don't str() it
