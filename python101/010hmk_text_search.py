@@ -94,5 +94,8 @@ with open(OUTPUT_FILE) as file_handle:
 
 # BONUS: time other parts of your program! of all
 # the TODOs, what is the slowest one?
+# hint: to really see a difference, find a bigger 
+# text file... or find a way to create a bigger
+# file by copying the one you already have?
 
 # BONUS: dig into the slowest TODO, why is it slow?
