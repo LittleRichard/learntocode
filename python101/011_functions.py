@@ -148,7 +148,6 @@ the best solution is prevention:
    the info isn't passed in, the function doesn't know it.
 """)
 
-
 # IN CONCLUSION, it's generally a good idea to create 
 # functions for things that are:
 # 1) Re-used.  Repetitive code becomes a nightmare over time,
@@ -164,4 +163,6 @@ the best solution is prevention:
 #    behind the curtain and let you use them with just one line.
 
 # Finding the balance just takes time and practice, and is
-# open to intepretation.
+# open to intepretation.  Over time you'll start to spot patterns
+# in code that are repetitive but have one value that changes; these
+# are ripe for function-izing!
