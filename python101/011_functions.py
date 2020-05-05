@@ -19,6 +19,7 @@ def my_function():
     print('in my_function!')
     return 55
 
+# the returned value can be assigned to a variable
 my_return_val = my_function()
 print(f'function gave me {my_return_val}')
 # you don't HAVE to do anything with the return,
