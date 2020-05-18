@@ -95,7 +95,6 @@ def get_card_name(suit_num, card_num):
         # but dont break if we have more.
         suit_name = str(suit_num)
 
-    # same about if, if, if... vs if-elif-elif-elif...
     if card_num == 1:
         card_name = 'Ace'
     elif card_num == 13:

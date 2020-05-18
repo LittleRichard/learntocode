@@ -1,2 +1,6 @@
 *.idea*
 *.DS_Store*
+*/data/*.jpg
+*/data/*.png
+*/data/*.html
+*another_api.json

@@ -6,6 +6,7 @@ data type | mutable | iterable | ordered | Hashed  |
 ----------|---------|----------|---------|---------|
 int       |  No     |  No      |  N/A    |  N/A    |
 bool      |  No     |  No      |  N/A    |  N/A    |
+float     |  No     |  No      |  N/A    |  N/A    |
 str *     |  No     |  Yes     |  Yes    |  No     |
 tuple     |  No     |  Yes     |  Yes    |  No     |
 list      |  Yes    |  Yes     |  Yes    |  No     |
