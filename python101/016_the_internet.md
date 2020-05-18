@@ -52,3 +52,11 @@ The server creates a payload and sends it back, where the browser (or code you'r
 
 ### More complex requests
 This example was of a `GET` request, but there are other types!  `PATCH` is for sending an update, and `POST` is for sending new information (and is also frequently used to trigger a function on a server).  `PATCH` and `POST` use 'payloads' in addition to QPs, more on that next.
+
+### Authentication
+Not all APIs will respond to your requests because they're protected,
+either because they don't want to deal with the volume of public requests
+or because they have data to protect. Common authentication methods:
+ - API key: outside of code you'll request an API key, which you'll need
+ to include in your request or the server will return an error code indicating that you are Forbidden or Not Authorized.
+ - Token based access: similar to an API key, but you have to request a new token periodically using a username/password.  This is essentially how you log into and use websites; your browser handles the token for you so you don't need to include username/password all the time.
