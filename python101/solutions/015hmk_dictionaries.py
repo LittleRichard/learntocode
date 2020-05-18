@@ -14,7 +14,7 @@ hinted at in past homeworks!
 # - use a dictionary with key as sum-of-dice, value is the count.
 # - try it for a few different dice sizes
 NUM_SIDES = 6
-NUM_ITERS = 10000 
+NUM_ITERS = 1000000 
 
 sum_to_count = dict()
 
@@ -25,6 +25,11 @@ for x in range(NUM_ITERS):
     if dice_sum not in sum_to_count:
         sum_to_count[dice_sum] = 0
 
+    # could have done an else where we set it to
+    # 1, but i like initializing the value
+    # and then letting the increment path happen
+    # just like it would if the value was already
+    # present in the dict
     sum_to_count[dice_sum] += 1
 
 # sometimes you need to be more specific
@@ -42,11 +47,12 @@ for key, value in sorted(sum_to_count.items()):
 WORDS_SET = set((
     'transylvania',
     'carpathians',
-    'vampire'
+    'vampire',
+    'and',
+    'or'
 ))
 
 lines_by_word = {}
-
 
 # here's the file iteration code for free, modify
 # as necessary
@@ -54,6 +60,8 @@ PATH_TO_FILE = 'data/dracula_sample.txt'
 with open(PATH_TO_FILE) as file_handle:
 
     line_num = 0
+    # some of you may have found the 'enumerate'
+    # builtin function; that's cool too!
     for line in file_handle.readlines():
         line_num += 1
 
