@@ -14,7 +14,7 @@ hinted at in past homeworks!
 # - use a dictionary with key as sum-of-dice, value is the count.
 # - try it for a few different dice sizes
 NUM_SIDES = 6
-NUM_ITERS = 1000000 
+NUM_ITERS = 10000 
 
 sum_to_count = dict()
 

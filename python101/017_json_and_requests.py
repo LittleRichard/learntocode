@@ -4,6 +4,25 @@ import requests
 # handles pretty much all the bits & bytes for you,
 # including URL encoding of QPs!!!
 
+# let's try using query params
+SEARCH_URL = 'http://www.google.com/search'
+query_params = {
+    'q': 'coding is fun'
+}
+
+response = requests.get(SEARCH_URL, params=query_params)
+# notice how requests.get() formatted the URL for us?
+print(f'response URL {response.url}')
+print(f'response code {response.status_code}')
+
+# there isn't any JSON data in this response, so we'll
+# look at the 'text' field... but it's an HTML file
+# so let's save it somewhere
+with open('data/google_example.html', 'w') as fh:
+    fh.write(response.text)
+
+# open this file using a browser!
+
 # documentation for API is at:
 # https://dog.ceo/dog-api/documentation/
 DOG_API_BASE_URL = 'https://dog.ceo/api/'
@@ -40,25 +59,6 @@ dictionary mapping dog types to lists of sub-types.
 # API's results...
 retrievers = resp_json['message']['retriever']
 print(f'retrievers: {retrievers}')
-
-# let's try using query params
-SEARCH_URL = 'http://www.google.com/search'
-query_params = {
-    'q': 'coding is fun'
-}
-
-response = requests.get(SEARCH_URL, params=query_params)
-# notice how requests.get() formatted the URL for us?
-print(f'response URL {response.url}')
-print(f'response code {response.status_code}')
-
-# there isn't any JSON data in this response, so we'll
-# look at the 'text' field... but it's an HTML file
-# so let's save it somewhere
-with open('data/google_example.html', 'w') as fh:
-    fh.write(response.text)
-
-# open this file using a browser!
 
 print(f"""
 Some APIs rely on transmitting a 'payload' instead
