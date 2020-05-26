@@ -31,7 +31,9 @@ rand_image_url = random.choice(img_data_from_json['message'])
 # download the image data and store it in a file
 print(f'downloading pup image {rand_image_url}')
 img_resp = requests.get(rand_image_url)
-output_file_path = f'data/random_{rand_breed}.jpg'
+
+output_file_path = f'data/random_{rand_breed}.txt'
+# wb: W for write, B for binary
 with open(output_file_path, 'wb') as fh:
     fh.write(img_resp.content)
 
