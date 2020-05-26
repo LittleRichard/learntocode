@@ -14,8 +14,8 @@ ALL_BREEDS_PATH = DOG_API_BASE_URL + 'breeds/list/all'
 
 # access the Dog API to get the breeds list
 breeds_resp = requests.get(ALL_BREEDS_PATH)
-breeds_json = breeds_resp.json()
-breeds = breeds_json['message']
+breeds_data_from_json = breeds_resp.json()
+breeds = breeds_data_from_json['message']
 
 # choose a random breed
 rand_breed = random.choice(list(breeds.keys()))
@@ -23,10 +23,10 @@ rand_breed = random.choice(list(breeds.keys()))
 # access the images the Dog API has for that breed
 images_url = DOG_API_BASE_URL + f'breed/{rand_breed}/images'
 img_resp = requests.get(images_url)
-img_json = img_resp.json()
+img_data_from_json = img_resp.json()
 
 # choose a random image URL
-rand_image_url = random.choice(img_json['message'])
+rand_image_url = random.choice(img_data_from_json['message'])
 
 # download the image data and store it in a file
 print(f'downloading pup image {rand_image_url}')
@@ -58,10 +58,10 @@ def download_random_image(breed, sub_breed=None):
         f'breed/{breed_path}/images')
 
     img_resp = requests.get(images_url)
-    img_json = img_resp.json()
+    img_data_from_json = img_resp.json()
 
     # choose a random image URL
-    rand_image_url = random.choice(img_json['message'])
+    rand_image_url = random.choice(img_data_from_json['message'])
 
     # download the image data and store it in a file
     print(f'downloading pup image {rand_image_url}')

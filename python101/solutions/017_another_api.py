@@ -86,10 +86,10 @@ def get_short_link(input_url):
     # https://cleanuri.com/docs
     resp = requests.post('https://cleanuri.com/api/v1/shorten',
                          data=payload)
-    resp_json = resp.json()
+    resp_data_from_json = resp.json()
 
     # shape of returned data also defined by API
-    return resp_json['result_url']
+    return resp_data_from_json['result_url']
 
 emails_list = [
     # empty, not going to commit 
