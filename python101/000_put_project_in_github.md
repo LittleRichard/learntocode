@@ -1,10 +1,10 @@
 Git is the most commonly used tool for 'source control', which aims to solve a few problems
 - backing up all of your precious code
-- - 'oh no i microwaved my hard drive! i spent so much time on that!'
+  - 'oh no i microwaved my hard drive! i spent so much time on that!'
 - versioning and release consistency
-- - 'wait which code is running on my server right now?'
+  - 'wait which code is running on my server right now?'
 - developer sanity during large projects
-- - 'wait what happened, this was totally working 20 minutes ago; what did i change?'
+  - 'wait what happened, this was totally working 20 minutes ago; what did i change?'
 
 For more details and commands, see in this project:
 Set up your own project by creating it in github and then doing this, but with your project instead of this one: 
