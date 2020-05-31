@@ -84,8 +84,3 @@ python3
 # >>> import cmd2  # BOOOOM, because cmd2 isn't installed outside your virtualenv
 ```
 
-#### project setup checklist
-- created a virtualenv
-- created a requirements.txt file
-- put all of the code inside the 
-
