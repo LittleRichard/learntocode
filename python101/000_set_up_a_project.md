@@ -13,7 +13,8 @@ cmd2
 flask
 numpy
 ```
-Then install the latest version of all of them at once by giving the requirements file to `pip`
+Then install the latest version of all of them at once by giving the requirements file to `pip`.  Don't actually do this
+yet though! Wait until we complete the next couple sections.
 `pip install -r requirements.txt`
 
 Note: packaging and installation is a deep well with lots of 'more correct' ways to use it, but this is fine until
