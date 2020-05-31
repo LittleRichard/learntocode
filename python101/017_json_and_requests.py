@@ -38,6 +38,30 @@ response = requests.get(ALL_BREEDS_PATH)
 # 5xx: The server did something wrong
 print(f'response code {response.status_code}')
 
+print("""
+IMPORTANT PRO TIP: Your web browser obscures the fact
+that it's doing exactly the same thing that we are here!
+
+As you use URLs for various things, try using the
+'developer tools' available in firefox and chrome
+to get a sense of what is happening; put them into
+a browser and see what happens!  If you get back:
+- a formatted web page: the website returned a bunch
+  of text that happens to be well-formatted HTML and
+  your browser knows how to 'run HTML code' to display
+  it to you
+- a bunch of raw text: could be anything, but is likely
+  to be JSON-formatted data; this signifies that the URL
+  is for some kind of API
+- image/audio/video: raw binary data formatted as JPG,
+  GIF, MOV, etc, which the browser can 'run' to show it
+  as you're used to seeing it.
+
+In all cases, it's the same process: you request some info
+from a URL and it gives it back; it's what you do AFTER
+you receive it that is important.
+""")
+
 # the return data from APIs will not be consistent,
 # but in this case the API is returning JSON to us.
 # JSON is a format for representing data,
@@ -74,28 +98,4 @@ POST requests typically involve an action
 that will result in persisting some data, which
 is almost never going to be exposed in a public API
 and thus is hard to find simple examples for.
-""")
-
-print("""
-IMPORTANT PRO TIP: Your web browser obscures the fact
-that it's doing exactly the same thing that we are here!
-
-As you use URLs for various things, try using the
-'developer tools' available in firefox and chrome
-to get a sense of what is happening; put them into
-a browser and see what happens!  If you get back:
-- a formatted web page: the website returned a bunch
-  of text that happens to be well-formatted HTML and
-  your browser knows how to 'run HTML code' to display
-  it to you
-- a bunch of raw text: could be anything, but is likely
-  to be JSON-formatted data; this signifies that the URL
-  is for some kind of API
-- image/audio/video: raw binary data formatted as JPG,
-  GIF, MOV, etc, which the browser can 'run' to show it
-  as you're used to seeing it.
-
-In all cases, it's the same process: you request some info
-from a URL and it gives it back; it's what you do AFTER
-you receive it that is important.
 """)
