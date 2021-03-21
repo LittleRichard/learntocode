@@ -39,10 +39,13 @@ print('') # print a blank line
 # PEMDAS!
 # applied in order of multiplication, division, addition, subtraction
 my_var = 2 * 3 + 10 / 5 - 3 # who knows what this equals, it's a mess
+print(f'my_var 1 {my_var}')
 # order of operations, this is equivalent to:
 my_var = (2 * 3) + (10 / 5) - 3
+print(f'my_var 2 (same as 1, with parentheses equivalent to PEMDAS) {my_var}')
 # use parentheses to explicitly tell python what you want
 my_var = (((2 * 3) + 10) / 5) - 3
+print(f'my_var 3 (parentheses lead to different outcome) {my_var}')
 
 print('') # print a blank line
 

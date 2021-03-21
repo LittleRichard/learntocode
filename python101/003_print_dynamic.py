@@ -1,4 +1,4 @@
-
+# start with a string syntax we already know
 print('This string is boring, it can only say one thing')
 
 # this is an f-string, though we're not using its special properties yet.

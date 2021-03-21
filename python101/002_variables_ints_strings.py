@@ -1,7 +1,11 @@
 # in python, anything following a '#' is a code comment and is ignored
 # by python's interpreter.  code comments are notes for the next developer.
 
-# this is a script.  it can be executed by python from the command line as:
+# this file is a script. script is an apt name for it, since you'll
+# decide who is in your script, what they say, and in which order they say it.
+# python is kinda dumb and does exactly what you tell it to.
+
+# it can be executed by python from the command line as:
 # $ python3 my_awesome_script.py
 # or in this case:
 # $ python3 002_variables_ints_strings.py

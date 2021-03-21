@@ -34,6 +34,16 @@ on your keyboard and typing 'Terminal' should work) before you can copy-paste
 the commands over.
 https://www.sublimetext.com/3
 
+Double check this link to be sure, but at time of writing the correct steps for installation
+on Ubuntu are the following commands in a terminal
+```
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+
 Sublime is nice because it will do 'syntax highlighting', which turns parts of your code 
 into colors that make it easier to read.
 
@@ -73,9 +83,25 @@ $ python3 --version
 Python 3.7.1
 ```
 
+First try this in Ubuntu:
+```
+sudo apt-get install python3
+```
+
 `python3` is almost definitely pre-installed in Ubuntu, and if not then you can run
 this in the Terminal to get it:
 `sudo apt-get install python3`
 
-It's probably installed on a mac if it's new, but if not then:
+It's probably installed on a mac if it's new, but if not...
+Mac users will need to install something called `brew`, it's a bit more involved
+so google your way through it. Then:
 https://docs.python-guide.org/starting/install3/osx/
+
+
+
+### A general update (ubuntu only)
+Enter these in the terminal to upgrade all linux packages to latest
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+```
